@@ -1,0 +1,35 @@
+.container{
+    border: 1PX SOLID brown;
+    background-color: yellow;
+    display: grid;
+    width: 700px;
+    height: 600px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    grid-gap: 10px;
+    justify-content: center;
+    justify-content: end;
+    justify-content: start;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-items: baseline;
+    align-items: stretch;
+    justify-items: center;
+    place-content: center;
+    align-items: center;
+    
+    
+}
+.box{
+    background-color: blue;
+    border: 1px solid black;
+    
+}
+#box4{
+   
+    align-self: center; 
+    justify-self: center;
+    
+}

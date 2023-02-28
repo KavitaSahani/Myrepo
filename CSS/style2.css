@@ -1,0 +1,28 @@
+.body{
+    border: 1px solid black;
+    background-image: linear-gradient(to top, red,blue);
+    height: 1000px;
+    width: vw;
+}
+
+.box{
+    position: relative;
+    top: 200px;
+    left: 50px;
+    right: 10px;
+     display: inline-block;
+    border: 3px solid yellow;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100px;
+    background-color: black;
+    margin: 2px;
+    color: yellow;
+    font-size: large;
+    
+}
+.box:hover{
+    background-color:blueviolet;
+    transform: scale(1.2);
+}

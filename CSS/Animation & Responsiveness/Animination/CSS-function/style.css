@@ -1,0 +1,19 @@
+/* Global Variable */
+:root{
+    --violet:#9b0f88
+}
+.container{
+    background-color: red;
+    border: 1px solid brown;
+    height: 300px;
+    width: 300px;
+    background-color: var(--violet);
+    
+}
+.box{
+    border: 2px solid green;
+    background-color: aqua;
+    /* Variable function */
+    --violet: #9b0f88;
+    color:var(--violet);
+}

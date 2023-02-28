@@ -1,0 +1,114 @@
+#myname{
+    background-color: blueviolet;
+}
+.parasef{
+    color: orange !important;
+}
+#black-para{
+    color: green;
+}
+#divi{
+    background-color: yellow;
+}
+div{
+    background-color: red;
+    color: blue;
+}
+.divc{
+    background-color: orange;
+    font-size: large;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: orange;
+}
+#wht{
+    background-color: white;
+}
+#green{
+    background-color: green;
+}
+/* }Colors in css */
+.hexa{
+    color: #000fff;
+    color: rgb(0,0,0);
+}
+/* Percentage Unit */
+#div1{
+    background-color: aqua;
+    width: 500px;
+    height: 100px;
+}
+#div2{
+    background-color: red;
+    width: 10%;
+    height: 10%;
+    margin: 10px;
+    padding: 10px;
+}
+/* Relative unit to viewport */
+#viewport{
+    background-color: rgb(28, 31, 168);
+    width: 50vw;
+    height: 5vw;
+}
+/* Linear gradient */
+.box3{
+    background-image: linear-gradient(red,blue);
+    height: 200px;
+    width: 150px;
+    color: black;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(0,0,255,1));
+}
+/* Radial Gradient */
+.mydiv{
+    border: 1px solid black;
+    margin: 10px;
+    height: 400px;
+    width: 200px;
+    background-image: radial-gradient( circle, red,blue);
+    background-image: radial-gradient(yellow 5%, red 10%, rgb(65, 8, 219) 50%);
+}
+/* Text-Shadow */
+.shadow{
+    text-shadow: 3px 3px 3px red;
+    /* multiple shadow */
+    text-shadow: 3px 3px 3px red,7px 7px 7px green;
+}
+/* Box-Shadow */
+#box-shadow{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 10px green;
+    color: red;
+}
+.dimension{
+    max-height: 100px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+.mydivc{
+    margin: 10px;
+    min-height: 100px;
+}
+#mydivi{
+    height: 20px;
+    border: 1px solid black;
+    overflow: visible;
+    overflow: hidden;
+    overflow: auto;
+}
+.transform{
+    background-color: aqua;
+    transform: translate(100px,800px);
+    transform: scale(2.5);
+    transform:skew(45deg);
+    transform: matrix(10,1,50,7,90);
+}
+ 
